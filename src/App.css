@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Cairo", sans-serif;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+} 
+
+
+.app-layout {
+  overflow-x: hidden;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
