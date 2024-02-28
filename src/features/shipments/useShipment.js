@@ -14,7 +14,3 @@ export function useShipment(id) {
     
 }
 
-/* const {isLoading , data : shipment , error} = useQuery({
-    queryKey: ['shipment' , id ],
-    queryFn:(id) => getShipment(trackingId),
-  })*/
